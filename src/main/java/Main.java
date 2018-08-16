@@ -20,12 +20,15 @@ public class Main {
         password.sendKeys("Xcg7299bnSmMuRLp9ITw");
         driver.findElement(By.name("submitLogin")).click();
 
-        List<WebElement> elements= driver.findElements(By.className("material-icons"));
-        for (int i = 0; i <elements.size() ; i++) {
-            elements.get(i).click();
-
-
-        }
+//
+//        List<WebElement> elements=
+        WebElement emaiqq =   driver.findElement(By.id("subtab-AdminParentOrders"));
+                emaiqq.click();
+//        for (int i = 0; i <elements.size() ; i++) {
+//            elements.get(i).click();
+//
+//
+//        }
 
 
     }
